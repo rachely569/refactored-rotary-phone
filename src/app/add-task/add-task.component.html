@@ -1,0 +1,4 @@
+<div class="add-task-form">
+  <input #taskInput type="text" placeholder="הכנס משימה חדשה...">
+  <button (click)="addNewTask(taskInput.value); taskInput.value = ''">הוסף</button>
+</div>
